@@ -284,6 +284,11 @@
     githubId = 7345998;
     name = "A1ca7raz";
   };
+  Alexis-Lapierre = {
+    name = "Alexis Lapierre";
+    github = "Alexis-Lapierre";
+    githubId = 128792625;
+  };
   a1russell = {
     email = "adamlr6+pub@gmail.com";
     github = "a1russell";

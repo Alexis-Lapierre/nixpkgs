@@ -34,4 +34,16 @@ python3Packages.buildPythonPackage rec {
       # -k wiki
     runHook postCheck
   '';
+
+  meta = {
+    description = "Minimalistic web-based software project management and bug/issue tracking system";
+    longDescription = ''
+      Trac is an enhanced wiki and issue tracking system for software development projects. 
+      Trac uses a minimalistic approach to web-based software project management.
+      Our mission is to help developers write great software while staying out of the way.
+      Trac should impose as little as possible on a team's established development process and policies.
+    '';
+    homepage = "https://trac.edgewall.org/";
+    license = lib.licenses.bsd3
+  };
 }
